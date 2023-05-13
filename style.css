@@ -1,0 +1,85 @@
+body{
+    background-color: #2B002B;
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    background-color: white;
+    width: 350px;
+    margin-top: 10%;
+    padding:2%;
+    border-radius: 2%;
+    box-shadow: 3px 3px 6px black;
+}
+.head-sec{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-sec{
+    text-align: center;
+
+}
+.form-sec input{
+    font-size: 20px;
+    border: 2px solid #059862;
+    outline:none;
+    border-radius: 3px;
+}
+.form-sec input:focus{
+    border-color: green;
+}
+ button{
+    padding: 2% 29%;
+    border: none;
+    background-color: #059862;
+    border-radius: 2px;
+    color: white;
+    box-shadow: 1px 1px 2px black;
+    font-size: 15px; 
+}
+ button:active{
+    box-shadow: none;
+    color: black;
+}
+.list-sec>ul{
+ 
+    justify-content: center;    
+}
+.list-sec ul{
+    
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    
+    width: 280px;
+
+    
+   
+}
+.list-sec li{
+    padding: 5px;
+    margin: 2px;
+    background-color:lightblue;
+}
+.result-sec{
+    text-align: center;
+}
+.result-sec button{
+   padding: 2% 19%;
+}
+.result-sec p{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.clear-sec{
+    text-align: center;
+}
+h2{
+   
+    margin-left: 30px;
+}
+
+
